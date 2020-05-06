@@ -8,6 +8,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Microsoft.eShopOnContainers.Services.Basket.API' ">
     <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
     <LaunchUrl>http://localhost:55103/</LaunchUrl>
   </PropertyGroup>
   <ItemGroup>

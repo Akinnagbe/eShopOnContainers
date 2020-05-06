@@ -10,6 +10,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Microsoft.eShopOnContainers.Services.Ordering.API' ">
     <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
     <LaunchUrl>http://localhost:55102/</LaunchUrl>
   </PropertyGroup>
   <ItemGroup>

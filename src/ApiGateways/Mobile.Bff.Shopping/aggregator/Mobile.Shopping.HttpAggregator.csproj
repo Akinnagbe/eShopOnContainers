@@ -9,6 +9,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'PurchaseForMvc' ">
     <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
     <LaunchUrl>api/values</LaunchUrl>
     <ApplicationURL>http://localhost:61632/</ApplicationURL>
   </PropertyGroup>

@@ -8,6 +8,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'eShopOnContainers.Identity' ">
     <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
     <LaunchUrl>http://localhost:55105</LaunchUrl>
   </PropertyGroup>
   <ItemGroup>

@@ -13,6 +13,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Marketing.API' ">
     <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
     <LaunchUrl>swagger</LaunchUrl>
     <ApplicationURL>http://localhost:52059</ApplicationURL>
   </PropertyGroup>
